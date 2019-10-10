@@ -110,7 +110,7 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 #header #menu { float: right; }
 
-#header #menu .nav-infos { justify-content: flex-end; }
+#header #menu .nav-infos { justify-content: flex-end; font-size: 13px; }
 
 #header #menu .nav-infos img { margin-right: 10px; }
 
@@ -132,7 +132,7 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 #header #menu ul > li > a:hover { color: #151d3a; }
 
-.banner-home { border-bottom: solid 5px #dddddd; }
+.banner-home { height: 600px; }
 
 .servicos-home { margin-top: 90px; margin-bottom: 90px; }
 
@@ -184,7 +184,7 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .sobre-home .box-texto .btn-saiba:hover { background: #454244; color: #ffffff; }
 
-.cta-home { background: #f3f3f3; margin-top: 35px; margin-bottom: 35px; }
+.cta-home { background: url(assets/img/pattern.jpg); margin-top: 35px; margin-bottom: 35px; }
 
 .cta-home .conteudo { padding: 65px 0; display: flex; flex-direction: column; align-items: center; text-align: center; }
 
@@ -199,7 +199,7 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 .cta-home .conteudo .btn-saiba:hover { background: #454244; color: #ffffff; }
 
 /* --------------------- FOOTER --------------------- */
-footer { padding-top: 40px; background: url(assets/img/footer.png) no-repeat; }
+footer { padding-top: 40px; background: url(assets/img/footer.png); }
 
 footer p { color: #ffffff; font-size: 15px; }
 
@@ -217,7 +217,7 @@ footer ul li img { margin-right: 15px; }
 
 .posfooter .boxfinal p { font-size: 13px; color: #ffffff; }
 
-.banner-page { background: url(assets/img/bkg-banner.png) no-repeat bottom; height: 200px; display: flex; align-items: center; }
+.banner-page { background: url(assets/img/bkg-banner.png) bottom; height: 200px; display: flex; align-items: center; }
 
 .banner-page h2 { text-align: center; color: #ffffff; font-size: 50px; font-weight: 100; }
 

@@ -374,6 +374,7 @@ figure.fit {
     float: right;
     .nav-infos {
       justify-content: flex-end;
+      font-size: 13px;
       img {
         margin-right: 10px;
       }
@@ -453,7 +454,7 @@ figure.fit {
 }
 
 .banner-home {
-  border-bottom: solid 5px #dddddd;
+  height: 600px;
 }
 
 .servicos-home {
@@ -614,7 +615,7 @@ figure.fit {
   }
 }
 .cta-home {
-  background: #f3f3f3;
+  background: url(assets/img/pattern.jpg);
   margin-top: 35px;
   margin-bottom: 35px;
   .conteudo {
@@ -654,7 +655,7 @@ figure.fit {
 /* --------------------- FOOTER --------------------- */
 footer {
   padding-top: 40px;
-  background: url(assets/img/footer.png) no-repeat;
+  background: url(assets/img/footer.png);
 
   p {
     color: $Branco;
@@ -696,7 +697,7 @@ footer {
   }
 }
 .banner-page {
-  background: url(assets/img/bkg-banner.png) no-repeat bottom;
+  background: url(assets/img/bkg-banner.png) bottom;
   height: 200px;
   display: flex;
   align-items: center;
